@@ -1,7 +1,7 @@
 <h1 align="center">🟣 Luciano Cayssials — Portfolio Web 🟣</h1>
 
 <p align="center">
-  <b>Minimalista.</b> <b>Pop.</b> <b>Violeta, negro y blanco.</b>
+  <b>Minimalista.</b> <b>Retro</b> <b>Futurista</b> <b>Violeta, negro y blanco.</b>
 </p>
 
 <p align="center">
