@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luciano Cayssials | Portfolio</title>
+  <link rel="icon" type="image/jpeg" href="public/gato programador.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="#" class="nav-logo">&lt;LCF /&gt;</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="icon-sun">&#9788;</span>
+      <span class="icon-moon">&#9790;</span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Full Stack Developer</p>
+      <h1 class="hero-title">Luciano<br><span class="accent">Cayssials</span></h1>
+      <p class="hero-sub">Creando soluciones web con pasion y codigo limpio.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+        <a href="#contact" class="btn btn-outline">Contactame</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">Sobre <span class="accent">Mi</span></h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="public/gato programador.jpg" alt="Luciano Cayssials">
+            <div class="image-border"></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>Soy un desarrollador Full Stack apasionado por la tecnologia y la creacion de experiencias web modernas. Me especializo en construir aplicaciones robustas y escalables.</p>
+          <p>Actualmente me enfoco en el desarrollo web full stack, combinando frontend y backend para crear soluciones completas. Cada proyecto es una oportunidad para aprender algo nuevo.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Repositorios</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">7</span>
+              <span class="stat-label">Lenguajes</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Dedicacion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title">Mis <span class="accent">Proyectos</span></h2>
+      <div class="projects-grid">
+
+        <a href="https://github.com/Shackmerferu/Wallet-react" target="_blank" class="project-card">
+          <div class="project-image">
+            <img src="RUTA wallet-react.jpg" alt="Wallet-react">
+          </div>
+          <h3>Wallet-react</h3>
+          <p>Aplicacion de wallet digital construida con React. Manejo de estado y interfaz de usuario moderna.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+          </div>
+          <span class="project-link">GitHub &rarr;</span>
+        </a>
+
+        <a href="https://github.com/Shackmerferu/POO" target="_blank" class="project-card">
+          <div class="project-image">
+            <img src="RUTA poo.jpg" alt="POO">
+          </div>
+          <h3>POO</h3>
+          <p>Programacion Orientada a Objetos en Java. Ejercicios y proyectos aplicando principios SOLID.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">POO</span>
+          </div>
+          <span class="project-link">GitHub &rarr;</span>
+        </a>
+
+        <a href="https://github.com/Shackmerferu/POW" target="_blank" class="project-card">
+          <div class="project-image">
+            <img src="RUTA pow.jpg" alt="POW">
+          </div>
+          <h3>POW</h3>
+          <p>Programacion Orientada a la Web. Desarrollo de paginas web con HTML, CSS y JavaScript.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">Web</span>
+          </div>
+          <span class="project-link">GitHub &rarr;</span>
+        </a>
+
+        <a href="https://github.com/Shackmerferu/LOAM" target="_blank" class="project-card">
+          <div class="project-image">
+            <img src="RUTA loam.jpg" alt="LOAM">
+          </div>
+          <h3>LOAM</h3>
+          <p>Programacion Orientada a Aplicaciones Moviles con Android Studio, Kotlin y JS/HTML/CSS + Firebase como DB.
+
+          </p>
+          <div class="project-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Android</span>
+          </div>
+          <span class="project-link">GitHub &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Mis <span class="accent">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">&#60;/&#62;</div>
+          <h3>Frontend</h3>
+          <p>React, Angular, Material UI, HTML, CSS, JavaScript</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 45%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Backend</h3>
+          <p>.NET 6, Java, Python, C, C++, C#, PHP</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 60%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#128190;</div>
+          <h3>Bases de Datos</h3>
+          <p>Oracle, PostgreSQL, MySQL</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#128736;</div>
+          <h3>Herramientas</h3>
+          <p>Git, GitHub, VS Code, Docker, Postman, Jira, Trello, Notion</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <div class="contact-content">
+        <p class="contact-text">Tienes un proyecto en mente o quieres colaborar? No dudes en escribirme.</p>
+        <div class="contact-links">
+          <a href="https://github.com/Shackmerferu" target="_blank" class="contact-btn">
+            <span>&#128187;</span> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/lucianocayssials/" target="_blank" class="contact-btn">
+            <span>&#128279;</span> LinkedIn
+          </a>
+          <a href="mailto:luciano@example.com" class="contact-btn">
+            <span>&#9993;</span> Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Luciano Cayssials. Hecho con &#10084; , un par de trolas(IA) y estudio + calidad cuestionable.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
