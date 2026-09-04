@@ -23,11 +23,16 @@
       <span class="icon-sun">&#9788;</span>
       <span class="icon-moon">&#9790;</span>
     </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </nav>
 
   <!-- HERO -->
   <header class="hero" id="hero">
-    <div class="hero-bg-grid"></div>
+
     <div class="hero-content">
       <p class="hero-tag">Full Stack Developer</p>
       <h1 class="hero-title">Luciano<br><span class="accent">Cayssials Fambrini</span></h1>
@@ -79,6 +84,10 @@
   <section class="section section-alt" id="projects">
     <div class="container">
       <h2 class="section-title">Mis <span class="accent">Proyectos</span></h2>
+      <div class="image-wrapper image-wrapper--center">
+        <img src="public/my coder.jpg" alt="Luciano Cayssials">
+        <div class="image-border"></div>
+      </div>
       <div class="projects-grid">
 
         <a href="https://github.com/Shackmerferu/Wallet-react" target="_blank" class="project-card">
@@ -172,17 +181,28 @@
   <section class="section section-alt" id="contact">
     <div class="container">
       <h2 class="section-title">Contacto</h2>
-      <div class="contact-content">
-        <p class="contact-text">Tienes un proyecto en mente o quieres colaborar? No dudes en escribirme.</p>
-        <div class="contact-links">
-          <a href="https://github.com/Shackmerferu" target="_blank" class="contact-btn">
-            <span>&#128187;</span> GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/lucianocayssials/" target="_blank" class="contact-btn">
-            <span>&#128279;</span> LinkedIn
-          </a>
-          <a href="mailto:lucianocayssials@gmail.com" class="contact-btn">
-            <span>&#9993;</span> Email
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-content">
+            <p class="contact-text">Tienes un proyecto en mente o quieres colaborar? No dudes en escribirme.</p>
+            <div class="contact-links">
+              <a href="https://github.com/Shackmerferu" target="_blank" class="contact-btn">
+                <span>&#128187;</span> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/lucianocayssials/" target="_blank" class="contact-btn">
+                <span>&#128279;</span> LinkedIn
+              </a>
+              <a href="mailto:lucianocayssials@gmail.com" class="contact-btn">
+                <span>&#9993;</span> Email
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="douddev-card">
+          <p class="douddev-label">Tambien podes encontrarme en</p>
+          <a href="https://doudev.com.ar/" target="_blank" class="douddev-link">
+            <img src="public/new_icon.png" alt="DouDev S.R.L">
+            <span>DouDev S.R.L</span>
           </a>
         </div>
       </div>
@@ -192,8 +212,9 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2026 Luciano Cayssials. Hecho con &#10084; , un par de trolas(IA) y estudio + calidad cuestionable.</p>
+      <p>&copy; 2026 Luciano Cayssials. Hecho con &#10084; , estudio + calidad cuestionable.</p>
     </div>
+    <div class="contact"> lucianocayssials@gmail.com</div>
   </footer>
 
   <script src="script.js"></script>
