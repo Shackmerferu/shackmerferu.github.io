@@ -338,7 +338,7 @@ a {
   border-radius: var(--radius);
   object-fit: cover;
   position: relative;
-  z-index: 2;
+  z-index: 0;
   box-shadow: var(--shadow);
   display: block;
 }
@@ -348,17 +348,12 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 380px;
   max-width: 380px;
   border: 3px solid var(--primary);
   border-radius: var(--radius);
-  transform: translate(16px, 16px);
-  z-index: 1;
-  transition: transform 0.4s ease;
-}
-
-.image-wrapper:hover .image-border {
   transform: translate(10px, 10px);
+  z-index: 1;
 }
 
 .about-text p {
